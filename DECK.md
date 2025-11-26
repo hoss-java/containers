@@ -67,7 +67,7 @@ The goal of this card is to created needed containers,
 Three containers (openjdk, maven and tomcat) are created.
 
 ### TODO :
-- [ ] 1. openjdk
+- [x] 1. openjdk
 - [ ] 2. maven
 - [ ] 3. tomcat
 - [ ] 4. Update time plan
@@ -75,6 +75,11 @@ Three containers (openjdk, maven and tomcat) are created.
 ### Reports :
 * An openjdk container based on Alpine and openjdk was created
 * The version of the openjdk is 21, the leates version available for Alpine is 21
+* A Maven container based on openjdk 21 and Alpine 3.20 was created
+* 3 examples for different purposes was coded added to the container folder
+> * my-app : A general code to use java under Maven
+> * my-springapp - A simple java app that is based on spring framework
+> * my-webapp - A simple project temlate (no java code included) to run under Tomcat
 
 #### Steps to test and debugging:
 - [] 1.
