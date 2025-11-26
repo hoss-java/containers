@@ -1,0 +1,37 @@
+# Maven service based on openjdk, Maven and Alpine
+# version 0.1
+# This composer need an '.env' file to be composed 
+#
+# Default env : .env.maven
+# To compose:
+#   docker compose --env-file ".env.maven" -f docker-compose-maven.yaml up -d
+#   docker compose --env-file ".env.maven" -f docker-compose-maven.yaml down --rmi local -v
+#   docker compose --env-file ".env.maven" -f docker-compose-maven.yaml down --remove-orphans --rmi local -v
+#
+#   docker system prune -a
+services:
+  maven:
+    build:
+      context: "maven"
+      dockerfile: "Dockerfile"
+      args:
+        JDK_VERSION: ${JDK_VERSION}
+        ADDRESS: ${MAVEN_IP}
+    image: maven_image
+    restart: always
+    container_name: maven
+    privileged: true
+    networks:
+      composenetwork:
+        ipv4_address: ${MAVEN_IP}
+    volumes:
+      - ${DOCKER_DATA_PATH}/:/data
+#      - ${DOCKER_DATA_PATH}/maven:/data
+networks:
+  composenetwork:
+    name: ${NETWORK_NAME}
+    driver: bridge
+    ipam:
+     config:
+       - subnet: ${NETWORK_SUBNET}
+         gateway: ${NETWORK_GETWAY}

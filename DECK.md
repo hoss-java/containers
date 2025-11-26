@@ -69,7 +69,7 @@ Three containers (openjdk, maven and tomcat) are created.
 ### TODO :
 - [x] 1. openjdk
 - [x] 2. maven
-- [ ] 3. tomcat
+- [x] 3. tomcat
 - [ ] 4. Update time plan
 
 ### Reports :
