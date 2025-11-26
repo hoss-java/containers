@@ -1,0 +1,23 @@
+# openjdk service based on openjdk and Alpine
+# version 0.1
+# This composer need an '.env' file to be composed 
+#
+# Default env : .env
+# To compose:
+#   docker compose up -d
+#   docker compose down --rmi local -v
+#   docker compose down --remove-orphans --rmi local -v
+services:
+  openjdk:
+    build:
+      context: "."
+      dockerfile: "Dockerfile"
+      args:
+        JDK_VERSION: ${JDK_VERSION}
+    image: openjdk_image
+    restart: always
+    container_name: openjdk
+    privileged: true
+    volumes:
+      - ${DOCKER_DATA_PATH}/:/data
+#      - ${DOCKER_DATA_PATH}/openjdk:/data

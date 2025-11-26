@@ -73,7 +73,8 @@ Three containers (openjdk, maven and tomcat) are created.
 - [ ] 4. Update time plan
 
 ### Reports :
-* 
+* An openjdk container based on Alpine and openjdk was created
+* The version of the openjdk is 21, the leates version available for Alpine is 21
 
 #### Steps to test and debugging:
 - [] 1.
