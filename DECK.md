@@ -17,11 +17,12 @@ Abbreviations
 
 |#|Part|Details|Total Duration|Status|
 |:-|:-|:-|:-|:-|
-|1|[Part 1](%base_url%/pm#Part_1_timeplan)|2025-11-25 - |- hours|ONGOING|
+|1|[Develop](%base_url%/pm#Develop_timeplan)|2025-11-25 - 2025-11-26|10 hours|DONE|
+|2|[Maintenance](%base_url%/pm#Maintenance_timeplan)|2025-11-26 -|- hours|ONGOING|
 |:-|:-|:-|::||
 
 
-## Part 1 timeplan
+## Develop timeplan
 
 ```mermaid
 gantt
@@ -30,9 +31,11 @@ gantt
     SD2 - Create containers              :done,md1des2, after md1des1,1d
     SD3 - Document          :done,md1des3, after md1des2,1d
 
+    section MD2
+    SD1 - Fix issues - ???                     :done,md2des1, 2025-11-26,10w
 ```
 
-# Stories/cards MD1
+# Stories/cards MD1 - Develop
 
 ## 48-001
 ### Goal : Create pm files and init repo
@@ -110,3 +113,5 @@ A README is added to the repo
 #### References :
 * []()
 ---
+
+# Stories/cards MD1 - Maintenance
