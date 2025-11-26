@@ -68,7 +68,7 @@ Three containers (openjdk, maven and tomcat) are created.
 
 ### TODO :
 - [x] 1. openjdk
-- [ ] 2. maven
+- [x] 2. maven
 - [ ] 3. tomcat
 - [ ] 4. Update time plan
 
@@ -80,6 +80,7 @@ Three containers (openjdk, maven and tomcat) are created.
 > * my-app : A general code to use java under Maven
 > * my-springapp - A simple java app that is based on spring framework
 > * my-webapp - A simple project temlate (no java code included) to run under Tomcat
+* A Tomcat container based on Alpine 3.20 was created
 
 #### Steps to test and debugging:
 - [] 1.

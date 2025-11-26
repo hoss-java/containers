@@ -1,0 +1,31 @@
+# tomcat service based on Alpine
+# version 0.1
+# This composer need an '.env' file to be composed 
+#
+# Default env : .env
+# To compose:
+#   docker compose up -d
+#   docker compose down --rmi local -v
+#   docker compose down --remove-orphans --rmi local -v
+services:
+  tomcat:
+    build:
+      context: "."
+      dockerfile: "Dockerfile"
+      args:
+        TOMCAT_PORT: ${TOMCAT_PORT}
+        TOMCAT_MAJOR: ${TOMCAT_MAJOR}
+        TOMCAT_VERSION: ${TOMCAT_VERSION}
+        TOMCAT_HOME: ${TOMCAT_HOME}
+        CATALINA_HOME: ${CATALINA_HOME}
+        CATALINA_OUT: ${CATALINA_OUT}
+    image: tomcat_image
+    restart: always
+    container_name: tomcat
+    privileged: true
+    ports:
+      - ${TOMCAT_PORT}:8080
+    volumes:
+      - ${DOCKER_DATA_PATH}/tomcat/webapps:/opt/tomcat/webapps
+      - ${DOCKER_DATA_PATH}/tomcat/logs:/logs
+      - ${DOCKER_DATA_PATH}/tomcat/conf:/opt/tomcat/conf
