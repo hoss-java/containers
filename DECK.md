@@ -70,7 +70,8 @@ Three containers (openjdk, maven and tomcat) are created.
 - [x] 1. openjdk
 - [x] 2. maven
 - [x] 3. tomcat
-- [ ] 4. Update time plan
+- [x] 4. Add a readme file
+- [] 5. Update time plan
 
 ### Reports :
 * An openjdk container based on Alpine and openjdk was created
