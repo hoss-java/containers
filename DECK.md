@@ -27,8 +27,8 @@ Abbreviations
 gantt
     section MD1
     SD1 - Create pm file and init repo                 :done,md1des1, 2025-11-25,1d
-    SD2 - Create containers              :md1des2, after md1des1,1d
-    SD3 - Document          :md1des3, after md1des2,1d
+    SD2 - Create containers              :done,md1des2, after md1des1,1d
+    SD3 - Document          :done,md1des3, after md1des2,1d
 
 ```
 
@@ -71,7 +71,7 @@ Three containers (openjdk, maven and tomcat) are created.
 - [x] 2. maven
 - [x] 3. tomcat
 - [x] 4. Add a readme file
-- [] 5. Update time plan
+- [x] 5. Update time plan
 
 ### Reports :
 * An openjdk container based on Alpine and openjdk was created
@@ -98,8 +98,8 @@ The goal of this card is to add a README.md and documents usages and containers'
 A README is added to the repo
 
 ### TODO :
-- [ ] 1. Add readme file
-- [ ] 2. Update time plan
+- [x] 1. Add readme file
+- [x] 2. Update time plan
 
 ### Reports :
 * 
