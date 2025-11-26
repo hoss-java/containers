@@ -26,7 +26,7 @@ Abbreviations
 ```mermaid
 gantt
     section MD1
-    SD1 - Create pm file and init repo                 :md1des1, 2025-11-25,1d
+    SD1 - Create pm file and init repo                 :done,md1des1, 2025-11-25,1d
     SD2 - Create containers              :md1des2, after md1des1,1d
     SD3 - Document          :md1des3, after md1des2,1d
 
@@ -47,6 +47,7 @@ A `DECK.MD` with needed stories added to the created repo
 - [x] 1. Create a repo name `containers`
 - [x] 2. Add a deck file
 - [x] 3. Update Deck with needed stories
+- [x] 4. Update time plan
 
 ### Reports :
 * 
@@ -69,6 +70,7 @@ Three containers (openjdk, maven and tomcat) are created.
 - [ ] 1. openjdk
 - [ ] 2. maven
 - [ ] 3. tomcat
+- [ ] 4. Update time plan
 
 ### Reports :
 * 
@@ -89,6 +91,7 @@ A README is added to the repo
 
 ### TODO :
 - [ ] 1. Add readme file
+- [ ] 2. Update time plan
 
 ### Reports :
 * 
