@@ -1,6 +1,6 @@
 ARG ALPINE_VERSION=3.20
 FROM alpine:${ALPINE_VERSION}
-MAINTAINER nexttop <javahoss@osxx.com>
+MAINTAINER hossjava <javahoss@osxx.com>
 LABEL Description="Lightweight container with Tomcat based on Alpine Linux."
 
 ARG TOMCAT_MAJOR

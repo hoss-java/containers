@@ -1,4 +1,4 @@
-package com.nexttop.beans;
+package com.hossjava.beans;
 
 public class Employee {
     private String name;

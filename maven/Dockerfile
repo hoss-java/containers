@@ -1,6 +1,6 @@
 ARG ALPINE_VERSION=3.20
 FROM alpine:${ALPINE_VERSION}
-MAINTAINER nexttop <hossjava@osxx.com>
+MAINTAINER hossjava <hossjava@osxx.com>
 LABEL Description="Lightweight container with Maven based on Alpine Linux."
 
 ARG JDK_VERSION

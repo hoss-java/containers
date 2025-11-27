@@ -1,6 +1,6 @@
-package com.nexttop.config;
+package com.hossjava.config;
 
-import com.nexttop.beans.Employee;
+import com.hossjava.beans.Employee;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -114,4 +114,26 @@ A README is added to the repo
 * []()
 ---
 
-# Stories/cards MD1 - Maintenance
+## 48-004
+### Goal : Document the creted containers
+The goal of this card is to fix some issues found on README.md and containers.
+
+### DOD  (definition of done):
+README is updated.
+All Container are fixed and updated
+
+### TODO :
+- [x] 1. Updated README with a link to this file DECK
+- [x] 2. Update miss-named classed on Maven examples
+
+### Reports :
+* 
+
+#### Steps to test and debugging:
+- [] 1.
+
+#### References :
+* []()
+---
+
+# Stories/cards MD2 - Maintenance
