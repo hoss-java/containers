@@ -42,7 +42,10 @@ gantt
 # Stories/cards MD1 - Develop
 
 ## 48-001
->### Goal : Create pm files and init repo
+### Create pm files and init repo ![status](https://img.shields.io/badge/status-DONE-brightgreen)
+<details>
+    <summary>Details</summary>
+
 >The goal of this card is to create a deck file to manage job.
 >It also aims to create a new repo on github and update git hooks.
 >
@@ -64,10 +67,13 @@ gantt
 >
 >#### References :
 >* []()
----
+</details>
 
 ## 48-002
->### Goal : Create containers
+### Create containers ![status](https://img.shields.io/badge/status-DONE-brightgreen)
+<details>
+    <summary>Details</summary>
+
 >The goal of this card is to created needed containers,
 >
 >### DOD  (definition of done):
@@ -95,10 +101,13 @@ gantt
 >
 >#### References :
 >* []()
----
+</details>
 
 ## 48-003
->### Goal : Document the creted containers
+### Document the creted containers ![status](https://img.shields.io/badge/status-DONE-brightgreen)
+<details>
+    <summary>Details</summary>
+
 >The goal of this card is to add a README.md and documents usages and containers' details.
 >
 >### DOD  (definition of done):
@@ -116,10 +125,13 @@ gantt
 >
 >#### References :
 >* []()
----
+</details>
 
 ## 48-004
->### Goal : Document the creted containers
+### Document the creted containers ![status](https://img.shields.io/badge/status-DONE-brightgreen)
+<details>
+    <summary>Details</summary>
+
 >The goal of this card is to fix some issues found on README.md and containers.
 >
 >### DOD  (definition of done):
@@ -138,10 +150,13 @@ gantt
 >
 >#### References :
 >* []()
----
+</details>
 
 ## 48-004
->### Goal : Document the created containers
+### Document the created containers ![status](https://img.shields.io/badge/status-DONE-brightgreen)
+<details>
+    <summary>Details</summary>
+
 >The goal of this card is to fix some issues found on README.md and containers.
 >
 >### DOD  (definition of done):
@@ -160,6 +175,29 @@ gantt
 >
 >#### References :
 >* []()
----
+</details>
+
+## 48-005
+### Update README with a link to the spike ![status](https://img.shields.io/badge/status-DONE-brightgreen)
+<details>
+    <summary>Details</summary>
+
+>The goal of this card is to update README to have a link to the spike that the container and codes are based.
+>
+>### DOD  (definition of done):
+>README is updated.
+>
+>### TODO :
+>- [x] 1. Updated README with a link to the spike file
+>
+>### Reports :
+>* 
+>
+>#### Steps to test and debugging:
+>- [] 1.
+>
+>#### References :
+>* []()
+</details>
 
 # Stories/cards MD1 - Maintenance
