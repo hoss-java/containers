@@ -40,7 +40,6 @@ gantt
 ```mermaid
 gantt
     section MD1
-    SD1 - Fix issues - ???                     :done,md2des1, 2025-11-26,10w
 ```
 
 # Stories/cards MD1 - Develop
