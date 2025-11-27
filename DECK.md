@@ -30,9 +30,6 @@ gantt
     SD1 - Create pm file and init repo                 :done,md1des1, 2025-11-25,1d
     SD2 - Create containers              :done,md1des2, after md1des1,1d
     SD3 - Document          :done,md1des3, after md1des2,1d
-
-    section MD2
-    SD1 - Fix issues - ???                     :done,md2des1, 2025-11-26,10w
 ```
 
 ## Maintenance timeplan
