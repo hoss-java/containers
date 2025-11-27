@@ -1,6 +1,5 @@
 # Docker composer files
-
-**Deck board** -> https://github.com/hoss-java/containers/blob/main/DECK.md
+[**Deck board**](https://github.com/hoss-java/containers/blob/main/DECK.md)
 
 ## How to use
 
